@@ -45,22 +45,22 @@ body {
   flex-direction: column;
   justify-content: center;
   line-height: 1.3;
-  font-size: 16px;
-
   color: #333;
-  background: linear-gradient(45deg, #ebee34, #031125, #3aa0ff);
+  background: linear-gradient(45deg, #edf769, #2d94c4, #295ec0);
   background-clip: text;
   color: transparent;
+  gap: 5px;
 }
 
 .eng {
   font-family: fantasy;
+  font-size: 20px;
 }
 
 .fa {
   font-size: 17px;
   font-weight: bold;
-  font-family: sahel;
+  font-family: titr;
 }
 
 .search-section {
@@ -88,7 +88,7 @@ body {
   height: 40px;
   width: 80px;
   border: 1px solid rgb(43, 75, 112);
-  background: linear-gradient(45deg, #ebee34, #031125, #3aa0ff);
+  background: #537bc5;
   border-radius: 4px;
   font-weight: bold;
   color: white;
@@ -97,7 +97,7 @@ body {
 }
 
 .search-button:hover {
-  background: #537bc5;
+  background: linear-gradient(45deg, #ebee34, #031125, #3aa0ff);
 }
 
 .register-section {
@@ -111,7 +111,7 @@ body {
   font-size: 16px;
   font-weight: bold;
   color: white;
-  background: linear-gradient(45deg, #ebee34, #031125, #3aa0ff);
+  background: #537bc5;
   text-decoration: none;
   padding: 8px 16px;
   border-radius: 4px;
@@ -123,7 +123,7 @@ body {
 }
 
 .sign-up:hover {
-  background: #537bc5;
+  background: linear-gradient(45deg, #ebee34, #031125, #3aa0ff);
 }
 
 .search-button,
