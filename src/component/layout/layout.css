@@ -12,13 +12,15 @@
   align-items: center;
   padding: 10px 20px;
   background-color: white;
+  z-index: 1000;
+  height: 60px;
 }
 .logo-section {
   display: flex;
   align-items: center;
   gap: 5px;
   flex: 1;
-  margin-top: 0;
+  margin-top: 10px;
 }
 .logo-jewelery {
   width: 90px;
@@ -67,6 +69,7 @@
   border-radius: 4px;
   padding: 0 10px;
   font-size: 16px;
+  font-family: B nazanin;
 }
 .search-button {
   cursor: pointer;
@@ -92,16 +95,16 @@
 .sign-up {
   font-size: 16px;
   font-weight: bold;
+  font-family: B nazanin;
   color: white;
   background: #537bc5;
   text-decoration: none;
-  padding: 8px 16px;
+  padding: 7px 22px;
   border-radius: 4px;
   border: 1px solid rgb(43, 75, 112);
-  height: 20px;
+  height: 24px;
   width: 80px;
   transition: all 0.3s;
-  margin-left: 150px;
 }
 .sign-up:hover {
   background: linear-gradient(45deg, #ebee34, #031125, #3aa0ff);
@@ -115,15 +118,18 @@
   padding: 20px 20px;
   margin-top: 90px;
   display: flex;
+  position: relative;
+  z-index: 900;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
+  height: 30px;
+  font-family: B nazanin;
 }
 .nav-category {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 10px;
-  height: 100%;
 }
 .three-lines {
   display: flex;
@@ -148,6 +154,7 @@
   color: white;
   text-decoration: none;
   font-weight: bold;
+  font-family: B nazanin;
 }
 .dropdown {
   position: absolute;
@@ -166,12 +173,14 @@
 .dropdown li a {
   color: white;
   text-decoration: none;
+  font-family: B nazanin;
+  font-weight: bold;
   padding: 8px 15px;
   display: block;
 }
 
 .dropdown li a:hover {
-  background: #537bc5;
+  background: rgb(50, 201, 201);
 }
 
 .nav-category:hover .dropdown {
@@ -190,7 +199,7 @@
   font-weight: bold;
 }
 .nav-item:hover {
-  color: gold;
+  color: rgb(50, 201, 201);
 }
 .cart-icon {
   color: white;
@@ -201,13 +210,57 @@
   height: 100%;
   display: flex;
   align-items: center;
+  font-family: B nazanin;
 }
 .cart-icon:hover {
-  color: gold;
+  color: rgb(50, 201, 201);
 }
 .nav-category:hover .line {
-  background-color: gold;
+  background-color: rgb(50, 201, 201);
 }
 .nav-category:hover .text-category {
-  color: gold;
+  color: rgb(50, 201, 201);
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  max-width: 1700px;
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  height: 600px;
+}
+
+.pictures {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.pictures img {
+  width: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.slider button {
+  position: absolute;
+  top: 50%;
+  color: rgb(10, 10, 10);
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  z-index: 10;
+}
+
+.slider .prev-picture {
+  left: 0px;
+}
+
+.slider .next-picture {
+  right: 0px;
+}
+
+.slider button:hover {
+  background: rgba(255, 255, 255, 0.8);
 }
