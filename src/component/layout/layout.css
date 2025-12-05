@@ -117,20 +117,34 @@ html, body {
   box-shadow: 0 0 50px currentColor;
 }
 .navbar {
+  position: fixed;        
+  top: 60px;               
+  left: 0;
+  right: 0;
   background: #2c3e50;
-  padding: 20px 20px;
-  margin-top: 90px;
-  margin-right: 10px;
-  margin-left: 10px;
-  position: sticky;
-  top: 70px;
   display: flex;
-  z-index: 800;
   justify-content: space-between;
   align-items: center;
-  height: 20px;
-  font-family: B nazanin;
+  padding: 15px 20px;      
+  height: 80px;            
+  box-sizing: border-box;  
+  z-index: 900;
 }
+
+.navbar a,
+.navbar .nav-center,
+.navbar .nav-category {
+  display: flex;
+  align-items: center;
+  line-height: 1.5;
+}
+
+.main-content,
+.about-text,
+.products-section {
+  margin-top: 140px;      
+}
+
 .nav-category {
   position: relative;
   display: flex;
@@ -497,9 +511,10 @@ html, body {
   color: rgb(9, 9, 9);
   padding: 20px 10px;
   border:1px solid #2d94c4;
-  margin-top: -50px; 
+  margin: 50px auto -30px auto;
   z-index: 10;
-  margin-bottom: -30px;
+   justify-content: center;
+  
 }
 
 .features-container {
@@ -510,16 +525,20 @@ html, body {
   align-items: center;
   flex-wrap: wrap;
   gap: 15px;
-  float: inherit;
+  
+  
 }
 
-.feature-item {
+.feature-item a {
   display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 16px;
+  align-items: center;  
+  gap: 8px;             
+  font-size: 24px;
   font-weight: bold;
+  text-decoration: none; 
+  color: #000;
 }
+
 
 .feature-item span {
   font-family: B nazanin;
@@ -536,11 +555,12 @@ html, body {
   padding: 80px 20px 40px; 
   text-align: center;
   position: relative;
+  height: 100px;
 }
 
 .footer-content p {
   font-family: B nazanin;
-  font-size: 14px;
+  font-size: 22px;
 }
 
 
