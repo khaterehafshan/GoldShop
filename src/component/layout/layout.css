@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0;
 }
+html, body {
+  overflow-x: hidden;
+}
 .header {
   display: flex;
   position: fixed;
@@ -117,6 +120,8 @@
   background: #2c3e50;
   padding: 20px 20px;
   margin-top: 90px;
+  margin-right: 10px;
+  margin-left: 10px;
   position: sticky;
   top: 70px;
   display: flex;
@@ -213,6 +218,8 @@
   display: flex;
   align-items: center;
   font-family: B nazanin;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .cart-icon:hover {
   color: rgb(50, 201, 201);
@@ -326,8 +333,9 @@
 
 .products-section {
   width: 100%;
-  padding: 40px 10px;
+  padding: 0 10px;
   margin-top: 40px;
+  box-sizing: border-box;
 }
 
 .section-title {
@@ -351,6 +359,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 25px;
+  width: 100%;
 }
 
 .product-card {
@@ -443,15 +452,16 @@
 
 .articles-grid {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 25px;
+  margin-bottom: 20px;
 }
 
 .article-card {
   background: #f9f9f9;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  width: 300px;
+  width: 400px;
   cursor: pointer;
 }
 
@@ -479,4 +489,58 @@
   line-height: 1.6;
   text-align: justify;
 }
+
+.footer-features {
+  width: 80%;
+  position: relative;
+  background: #ffffff;
+  color: rgb(9, 9, 9);
+  padding: 20px 10px;
+  border:1px solid #2d94c4;
+  margin-top: -50px; 
+  z-index: 10;
+  margin-bottom: -30px;
+}
+
+.features-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  float: inherit;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.feature-item span {
+  font-family: B nazanin;
+}
+
+.feature-item:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+.footer {
+  background: #2c3e50;
+  color: white;
+  padding: 80px 20px 40px; 
+  text-align: center;
+  position: relative;
+}
+
+.footer-content p {
+  font-family: B nazanin;
+  font-size: 14px;
+}
+
 
