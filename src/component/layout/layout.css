@@ -138,13 +138,11 @@ html, body {
   align-items: center;
   line-height: 1.5;
 }
-
 .main-content,
 .about-text,
 .products-section {
   margin-top: 140px;      
 }
-
 .nav-category {
   position: relative;
   display: flex;
@@ -279,11 +277,9 @@ html, body {
 .slider .prev-picture {
   left: 0px;
 }
-
 .slider .next-picture {
   right: 0px;
 }
-
 .slider button:hover {
   background: rgba(255, 255, 255, 0.8);
 }
@@ -295,7 +291,6 @@ html, body {
   width: 100%;
   padding: 40px;
 }
-
 .text-box {
   width: 50%;
   display: flex;
@@ -303,7 +298,6 @@ html, body {
   gap: 10px;
   margin-right: 90px;
 }
-
 .titr {
   font-size: 35px;
   font-weight: bold;
@@ -403,7 +397,6 @@ html, body {
   opacity: 0;
   transition: 0.4s;
 }
-
 .product-icons span {
   background: white;
   padding: 15px;
@@ -411,20 +404,16 @@ html, body {
   font-size: 20px;
   transition: 0.3s;
 }
-
 .product-icons span:hover {
   background: gold;
 }
-
 .product-card:hover img {
   filter: brightness(0.7);
 }
-
 .product-card:hover .product-icons {
   opacity: 1;
   right: 10px;
 }
-
 .product-info {
   background: #f9f9f9;
   padding: 10px;
@@ -440,19 +429,16 @@ html, body {
   color: #333;
   margin-bottom: 5px;
 }
-
 .product-price {
   font-size: 16px;
   font-weight: bold;
   color: #d43f3a;
 }
-
 .latest-articles {
   padding: 50px 20px;
   background-color: #fff;
   text-align: center;
 }
-
 .latest-articles .section-title {
   font-size: 22px;
   font-weight: bold;
@@ -463,14 +449,12 @@ html, body {
   border-bottom: 2px solid #0c0544;
   padding-bottom: 5px;
 }
-
 .articles-grid {
   display: flex;
   justify-content: flex-start;
   gap: 25px;
   margin-bottom: 20px;
 }
-
 .article-card {
   background: #f9f9f9;
   border-radius: 10px;
@@ -478,7 +462,6 @@ html, body {
   width: 400px;
   cursor: pointer;
 }
-
 .article-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 15px rgba(0,0,0,0.15);
@@ -503,7 +486,6 @@ html, body {
   line-height: 1.6;
   text-align: justify;
 }
-
 .footer-features {
   width: 80%;
   position: relative;
@@ -514,9 +496,7 @@ html, body {
   margin: 50px auto -30px auto;
   z-index: 10;
    justify-content: center;
-  
 }
-
 .features-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -525,10 +505,7 @@ html, body {
   align-items: center;
   flex-wrap: wrap;
   gap: 15px;
-  
-  
 }
-
 .feature-item a {
   display: flex;
   align-items: center;  
@@ -538,17 +515,13 @@ html, body {
   text-decoration: none; 
   color: #000;
 }
-
-
 .feature-item span {
   font-family: B nazanin;
 }
-
 .feature-item:hover {
   transform: scale(1.05);
   transition: transform 0.3s;
 }
-
 .footer {
   background: #2c3e50;
   color: white;
@@ -557,7 +530,6 @@ html, body {
   position: relative;
   height: 100px;
 }
-
 .footer-content p {
   font-family: B nazanin;
   font-size: 22px;
