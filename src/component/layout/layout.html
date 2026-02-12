@@ -1,143 +1,133 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gold-shop</title>
-    <link rel="stylesheet" href="./layout.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="logo-section">
-        <a href="#">
-          <img src="./icons8-diamond-96.png" alt="logo" class="logo-jewelery" />
-        </a>
-        <div class="header-text">
-          <span class="fa">جـواهـرات الـمـاس</span>
-          <span class="eng">Almas Jewelery</span>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gold-shop</title>
+  <link rel="stylesheet" href="layout.css" />
+</head>
+<body>
+  
+  <header class="header">
+    <div class="logo-section">
+      <a href="#"><img src="./icons8-diamond-96.png" alt="logo" class="logo-jewelery" /></a>
+      <div class="header-text">
+        <span class="fa">جـواهـرات الـمـاس</span>
+        <span class="eng">Almas Jewelery</span>
       </div>
-      <div class="search-section">
-        <input class="search" type="text" placeholder="جستجوی محصولات" />
-        <button class="search-button" type="button">جـسـتجـو</button>
-      </div>
-      <div class="register-section">
-        <a href="#" class="sign-up">ورود/ ثبت نام</a>
-      </div>
-    </header>
-    <nav class="navbar">
-      <div class="nav-category">
-        <div class="three-lines">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-        </div>
-        <a href="#" class="text-category">دسته بندی محصولات <span class="arrow">&#9662</span></a>
-        <ul class="dropdown">
-<li><a href="#">گردنبند</a></li>
-<li><a href="#">گوشواره</a></li>
-<li><a href="#">دستبند</a></li>
-        </ul>
-      </div>
-      <div class="nav-center">
-        <a href="#" class="nav-item">صفحه اصلی</a>
-        <a href="#" class="nav-item">درباره ما</a>
-        <a href="#" class="nav-item">تماس با ما</a>
-      </div>
-      <a href="#" class="cart-icon">🛒 سبد خرید</a>
-    </nav>
-    <div class="slider">
-      <button class="prev-picture">&#10095;</button>
-      <div class="pictures">
-        <img src="./gold1.webp" alt="picture1">
-        <img src="./gold2.webp" alt="picture2">
-        <img src="./gold3.webp" alt="picture3">
-        <img src="./gold4.webp" alt="picture4">
-      </div>
-      <button class="next-picture">&#10094;</button>
     </div>
-      <div class="about-us-container">
-  <div class="about-text">
-    <div class="text-box">
-    <h1 class="titr">جـواهری الـماس</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus repellat eveniet numquam, voluptatibus eius explicabo nihil rem rerum nostrum ea mollitia! Saepe veritatis rerum sed ex? Cupiditate, consectetur aliquam magnam fuga numquam commodi, nostrum minima consequatur deserunt minus inventore laudantium porro quas? Eius quod doloribus inventore debitis itaque aspernatur voluptate.
-    </p>
-    <button class="about-button" type="button">درباره ما</button>
+    <div class="search-section">
+      <input class="search" type="text" placeholder="جستجوی محصولات" />
+      <button class="search-button">جـستجـو</button>
     </div>
-    <div class="about-image"> 
-      <img src="./gold2.webp" alt="gold">
+    <div class="register-section">
+      <a href="#" class="sign-up" id="loginBtn">ورود/ ثبت نام</a>
+    </div>
+  </header>
+
+ 
+  <nav class="navbar">
+    <div class="nav-category">
+      <div class="three-lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <a href="#" class="text-category">دسته بندی محصولات <span class="arrow">&#9662;</span></a>
+      <ul class="dropdown">
+        <li><a href="#">گردنبند</a></li>
+        <li><a href="#">گوشواره</a></li>
+        <li><a href="#">دستبند</a></li>
+      </ul>
+    </div>
+    <div class="nav-center">
+      <a href="#" class="nav-item">صفحه اصلی</a>
+      <a href="#" class="nav-item">درباره ما</a>
+      <a href="#" class="nav-item">تماس با ما</a>
+    </div>
+    <a href="#" class="cart-icon">🛒 سبد خرید (0)</a>
+  </nav>
+
+  <div class="picture">
+    <img src="./gold1.webp" alt="hero-image" />
+  </div>
+
+  <div class="about-us-container">
+    <div class="about-text">
+      <div class="text-box">
+        <h1 class="titr">جـواهری الـماس</h1>
+        <p>
+          با درخشش الماس‌های ناب، مجموعه‌ای بی‌نظیر از زیورآلات لوکس و منحصر به فرد را کشف کنید. از انگشترهای نامزدی درخشان تا گردنبندهای ظریف و جذاب، هر قطعه تلفیقی از زیبایی، ظرافت و هنر دست است. لحظات خاص زندگی خود را با شکوه و جلوه‌ی ماندگار جشن بگیرید.
+        </p>
+        <button class="about-button">درباره ما</button>
+      </div>
+      <div class="about-image">
+        <img src="./gold2.webp" alt="about-image" />
+      </div>
     </div>
   </div>
-<section class="products-section">
-  <h2 class="section-title">
-    <span>جدیدترین محصولات</span>
-    <i class="icon">💍</i>
-  </h2>
-  <div class="products-grid">
-    <div class="product-card">
-      <div class="product-image">
-        <img src="./solara_ring.webp" alt="product">
-        <div class="product-icons">
-          <span>🛒</span>
-          <span>🔍</span>
-          <span>🔄</span>
-          <span>❤️</span>
+
+  <section class="products-section">
+    <h2 class="section-title"><span>جدیدترین محصولات</span> <i class="icon">💍</i></h2>
+    <div class="products-grid">
+      <div class="product-card">
+        <div class="product-image">
+          <img src="./solara_ring.webp" alt="انگشتر eFA" />
+          <div class="product-icons">
+            <span class="add-cart">🛒</span>
+            <span class="like">❤️</span>
+          </div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">انگشتر eFA</p>
+          <p class="product-price">rial ۴۵۸,۰۰۰</p>
         </div>
       </div>
-      <div class="product-info">
-      <p class="product-name">انگشتر eFA</p>
-      <p class="product-price">$۴۵۸,۰۰۰ </p></p>
-    </div>
-</div>
-    <div class="product-card">
-      <div class="product-image">
-        <img src="./il_fullxfull.4926490701_lxzo.webp" alt="product">
-        <div class="product-icons">
-          <span>🛒</span>
-          <span>🔍</span>
-          <span>🔄</span>
-          <span>❤️</span>
+
+      <div class="product-card">
+        <div class="product-image">
+          <img src="./il_fullxfull.4926490701_lxzo.webp" alt="گردنبند e45" />
+          <div class="product-icons">
+            <span class="add-cart">🛒</span>
+            <span class="like">❤️</span>
+          </div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">گردنبند e45</p>
+          <p class="product-price">rial ۵۶۵,۰۰۰</p>
         </div>
       </div>
-      <div class="product-info">
-      <p class="product-name">گردنبند e45</p>
-      <p class="product-price"> $۵۶۵,۰۰۰</p>
-    </div>
-    </div>
-    <div class="product-card">
-      <div class="product-image">
-        <img src="./PBC1006_O7WHR_DB0OY_10.avif" alt="product">
-        <div class="product-icons">
-          <span>🛒</span>
-          <span>🔍</span>
-          <span>🔄</span>
-          <span>❤️</span>
+
+      <div class="product-card">
+        <div class="product-image">
+          <img src="./PBC1006_O7WHR_DB0OY_10.avif" alt="دستبند eF9" />
+          <div class="product-icons">
+            <span class="add-cart">🛒</span>
+            <span class="like">❤️</span>
+          </div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">دستبند eF9</p>
+          <p class="product-price">rial ۱۶۵,۰۰۰</p>
         </div>
       </div>
-      <div class="product-info">
-      <p class="product-name">دستبند eF9</p>
-      <p class="product-price">$۱۶۵,۰۰۰</p>
-    </div>
-    </div>
-    <div class="product-card">
-      <div class="product-image">
-        <img src="./V-491131900_0_800.avif" alt="product">
-        <div class="product-icons">
-          <span>🛒</span>
-          <span>🔍</span>
-          <span>🔄</span>
-          <span>❤️</span>
+
+      <div class="product-card">
+        <div class="product-image">
+          <img src="./V-491131900_0_800.avif" alt="گوشواره eA" />
+          <div class="product-icons">
+            <span class="add-cart">🛒</span>
+            <span class="like">❤️</span>
+          </div>
+        </div>
+        <div class="product-info">
+          <p class="product-name">گوشواره eA</p>
+          <p class="product-price">rial ۱۶۰,۰۰۰</p>
         </div>
       </div>
-      <div class="product-info">
-      <p class="product-name">گوشواره eA</p>
-      <p class="product-price">$۱۶۰,۰۰۰</p>
     </div>
-    </div>
-  </div>
-</section>
-<section class="latest-articles">
+  </section>
+  <section class="latest-articles">
   <h3 class="section-title">آخرین مطالب</h3>
   <div class="articles-grid">
     <div class="article-card">
@@ -160,9 +150,9 @@
       <img src="./gold 6.webp" class="article-image" />
       <p class="article-text">Lorem ipsum...</p>
     </div>
-  </div> 
-</section> 
-</div> 
+  </div>
+</section>
+
 <section class="footer-features">
   <div class="features-container">
     <div class="feature-item">
@@ -182,9 +172,25 @@
     </div>
   </div>
 </section>
+
 <footer class="footer">
   <div class="footer-content">
-    <p> جواهری الماس: تمام حقوق محفوظ است.</p>
-    <p>Designed by Khatereh Afshan</p>
+    <p>جواهری الماس: تمام حقوق محفوظ است.</p>
+    <br>
+    <p> 💎 Shine Bright Like A Diamond 💎 </p>
   </div>
 </footer>
+
+  <div id="loginModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <form id="loginForm">
+       
+        <p><a href="#" class="switch-form">ایجاد حساب کاربری</a></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
