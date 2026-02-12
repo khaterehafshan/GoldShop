@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initSearch();
 });
 
+
 function initLoginModal() {
   const loginBtn = document.getElementById("loginBtn");
   const modal = document.getElementById("loginModal");
