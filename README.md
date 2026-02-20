@@ -3,7 +3,7 @@
 GoldShop is a frontend shopping web application built with vanilla JavaScript, HTML, and CSS. It simulates an online gold store with user authentication, product search, likes, and a shopping cart — all powered by localStorage (no backend).
 
 Features
-👤 Authentication
+ Authentication
 
 User login and signup
 
@@ -15,7 +15,7 @@ User session stored in localStorage
 
 Logout functionality
 
-⚠️ Authentication is frontend-only and intended for learning purposes.
+Authentication is frontend-only and intended for learning purposes.
 
 🛍️ Shopping Cart
 
@@ -35,7 +35,7 @@ Search products by name
 
 Filter products instantly
 
-💾 Data Persistence
+Data Persistence
 
 Users, current user, cart, and likes stored in localStorage
 
@@ -77,7 +77,7 @@ Sign up or log in
 
 Browse gold products
 
-Like products ❤️
+Like products 
 
 Add items to the cart 🛒
 
